@@ -1,0 +1,1 @@
+﻿document.selection.Replace("\\t?.\\d+\\t西村の(布ぞうり.*\\)).*1\\,(300|500|700) 円.*(\\d+)月(\\d+)日.*\\t(\\S+)\\t$", "2020/\\3/\\4\\t\\1\\t2020/\\3/\\4\\t\\5", meFindNext | meFindReplaceRegExp | meReplaceAll);
